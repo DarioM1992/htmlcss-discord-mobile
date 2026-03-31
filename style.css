@@ -1,0 +1,21 @@
+*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 512px;
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.main-title {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+figure {
+    width: 512px;
+}
