@@ -2,20 +2,37 @@
     padding: 0 ;
     margin: 0;
     box-sizing: border-box;
+    color: white;
 }
 
 body {
     width: 512px;
-    background-image: url("img/background.png");
-    background-repeat: no-repeat;
-    background-size: contain;
+    background-color: rgb(25,29,123)
 }
 
-.main-title {
+h1 {
     text-align: center;
     text-transform: uppercase;
 }
+h2 {
+    text-transform: uppercase;
+}
 
-figure {
-    width: 512px;
+.first-link {
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+}
+
+.second-link {
+    background-color: rgb(94,106,242);
+    border-radius: 8px;
+}
+
+.cloud {
+    display: inline-block;
+}
+
+.box {
+    background-image: url(img/background.png);
 }
