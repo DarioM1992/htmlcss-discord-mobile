@@ -5,8 +5,15 @@
     color: white;
 }
 
+body {
+    width:512px;
+    background-color: rgb(25,29,123);
+    font-family: "DM Sans", sans-serif;
+}
+
 .banner {
-    width: 512px;
+    /* 100% permette di arrivare al max dato al body in questo caso 512px */
+    width: 100%;
 }
 
 .img-box {
@@ -14,12 +21,6 @@
     max-width: 100%;
     border-radius: 18%;
     padding : 1em 3em;
-
-}
-body {
-    width:512px;
-    background-color: rgb(25,29,123);
-    font-family: "DM Sans", sans-serif;
 }
 
 .center {
@@ -28,14 +29,16 @@ body {
     padding: 1em 3em;
 } 
 
-.main-title {
+h1 {
     /* primo titolo di riferimento */
     margin: 3em 2em auto 2em;
     text-align: center;
     text-transform: uppercase;
+    font-family: "Sigmar One", sans-serif;
+    line-height: 1.2;
 }
 
-h1.group-chats {
+.group-chats {
     /* titoli dei box */
     text-transform: uppercase;
     padding-top: 1.5em;
@@ -43,17 +46,18 @@ h1.group-chats {
     padding-right: 3em;
 }
 
-.first-link {
+.download-discord {
     /* button del download di discord */
     border-radius: 8px;
     background-color: white;
-    color: black;
+    color: black; 
     margin: 1em 4em;
+    padding: 1em 2em;
     height: 60px;
     text-align: center;
 } 
 
-.second-link {
+.link-discord{
     /* button per apertura discord su browser */
     background-color: rgb(94,106,242);
     border-radius: 8px;
@@ -68,13 +72,14 @@ h1.group-chats {
     display: inline-block;
 }
 
-
 .box {
     background-image: url(img/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8%;
-    margin: 3em 3em;
+    margin: 3em;
+    padding: 1em;
+    padding-top: 1.5em;
 }
 
 video {
@@ -84,21 +89,17 @@ video {
     padding : 1em 3em;
 }
 
-
 p {
     padding-top: 15px;
-    padding-left: 30px;
+    padding-left: 25px;
     padding-right: 50px;
     /* padding: 20px 25px; */
 }
 
-h1 {
+h2 {
     font-family: "Sigmar One", sans-serif;
     line-height: 1.2;
-}
-
-.black-text {
-    color: black;
+    margin-right: 1.5em;
 }
 
 .badge {
@@ -106,5 +107,5 @@ h1 {
     height: 100px;
     width: 100px;
     position: absolute;
-    translate: 70% -50%;
+    translate: 70% -70%;
 }
