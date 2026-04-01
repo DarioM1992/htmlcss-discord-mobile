@@ -109,3 +109,14 @@ p {
     position: absolute;
     translate: 70% -70%;
 }
+
+.badge-c {
+    position: absolute;
+    transform: translate(-50%);
+    
+
+}
+
+.bonus-box {
+    position: relative;
+}
