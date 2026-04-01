@@ -5,6 +5,10 @@
     color: white;
 }
 
+.banner {
+    width: 512px;
+}
+
 .img-box {
     /* immagine esempio chat situata in primo paragrafo delle chat */
     max-width: 100%;
