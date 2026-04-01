@@ -16,6 +16,37 @@ body {
     width: 100%;
 }
 
+.box {
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8%;
+    margin: 3em;
+    padding: 1em;
+    padding-top: 1.5em;
+}
+
+h1 {
+    /* primo titolo di riferimento */
+    margin: 3em 2em auto 2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Sigmar One", sans-serif;
+    line-height: 1.2;
+}
+
+h2 {
+    /* titoli dei box */
+    text-transform: uppercase;
+    padding-top: 1.5em;
+    padding-left: 1em;
+    padding-right: 3em;
+    font-family: "Sigmar One", sans-serif;
+    line-height: 1.2;
+    margin-right: 1.5em;
+}
+
+
 .img-box {
     /* immagine esempio chat situata in primo paragrafo delle chat */
     max-width: 100%;
@@ -29,23 +60,6 @@ body {
     padding: 1em 3em;
 } 
 
-h1 {
-    /* primo titolo di riferimento */
-    margin: 3em 2em auto 2em;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: "Sigmar One", sans-serif;
-    line-height: 1.2;
-}
-
-.group-chats {
-    /* titoli dei box */
-    text-transform: uppercase;
-    padding-top: 1.5em;
-    padding-left: 1em;
-    padding-right: 3em;
-}
-
 .download-discord {
     /* button del download di discord */
     border-radius: 8px;
@@ -55,6 +69,7 @@ h1 {
     padding: 1em 2em;
     height: 60px;
     text-align: center;
+    font-size: larger;
 } 
 
 .link-discord{
@@ -63,23 +78,14 @@ h1 {
     border-radius: 8px;
     height: 60px;
     margin: 1em 4em;
-    padding-top: 1em;
+    padding: 1em 2em;
     text-align: center;
+    font-size: larger;
 }
 
 .cloud {
     /* icona del download */
     display: inline-block;
-}
-
-.box {
-    background-image: url(img/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 8%;
-    margin: 3em;
-    padding: 1em;
-    padding-top: 1.5em;
 }
 
 video {
@@ -94,12 +100,6 @@ p {
     padding-left: 25px;
     padding-right: 50px;
     /* padding: 20px 25px; */
-}
-
-h2 {
-    font-family: "Sigmar One", sans-serif;
-    line-height: 1.2;
-    margin-right: 1.5em;
 }
 
 .badge {
