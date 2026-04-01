@@ -5,17 +5,26 @@
     color: white;
 }
 
+.img-box {
+    max-width: 100%;
+    border-radius: 18%;
+    padding : 1em 3em;
+
+}
 body {
-    width: 512px;
-    background-color: rgb(25,29,123)
+    width:512px;
+    background-color: rgb(25,29,123);
+    
 }
 
-h1 {
+.main-title {
     text-align: center;
     text-transform: uppercase;
 }
-h2 {
+h1.group-chats {
     text-transform: uppercase;
+    padding-top: 2em;
+    padding-left: 0.7em;
 }
 
 .first-link {
@@ -33,6 +42,27 @@ h2 {
     display: inline-block;
 }
 
+.chat-img {
+   border-radius: 40px;
+}
+
 .box {
     background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8%;
+    margin: 3em 1em;
+}
+
+video {
+    max-width: 100%;
+    justify-content: center;
+    border-radius: 18%;
+    padding : 1em 3em;
+}
+
+
+p {
+    margin: 15px 30px;
+    /* padding: 20px 25px; */
 }
